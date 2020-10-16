@@ -34,6 +34,6 @@ define('WP_CONTENT_DIR', '/usr/share/wordpress/wp-content');
 ?>
 END
 service mysql start
-echo "Database configured: wordpress/ppassword" >> /tmp/i.log
+echo "Database configured: wordpress/password" >> /tmp/i.log
 echo "Installation Finished visit: $(wget -qO - icanhazip.com)/blog" >> /tmp/i.log
 
