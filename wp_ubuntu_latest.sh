@@ -1,4 +1,6 @@
 #!/bin/sh
+# userdata for a fully working wordpress setup on ubuntu
+
 echo "Wordpress installer started" >> /tmp/i.log
 apt update
 apt install wordpress php libapache2-mod-php mysql-server php-mysql -y
