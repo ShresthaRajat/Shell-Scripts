@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Installer started, installing wordpress" >> /tmp/i.log
+echo "Wordpress installer started" >> /tmp/i.log
 apt update
 apt install wordpress php libapache2-mod-php mysql-server php-mysql -y
 tee -a /etc/apache2/sites-available/wordpress.conf << END
